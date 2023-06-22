@@ -110,4 +110,18 @@ int main()
 {
 	Queues q;
 	char ch;
+
+	while (true) {
+		try {
+			cout << "MENU" << endl;
+			cout << "1. Implement Insert Operation" << endl;
+			cout << "2. Implement Delete Operation" << endl;
+			cout << "3. Display values" << endl;
+			cout << "4. Exit" << endl;
+			cout << "5. Enter Your Choice (1-4) : ";
+			cin >> ch;
+			cout << endl;
+
+		}
+	}
 }
